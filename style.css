@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 64.5%;
+}
+
+.navbar{
+    text-decoration: none;
+   
+}
+ul{
+    list-style-type: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+   
+    gap: 4.3rem;
+}
+  
+.navbar:hover{
+    background-color: chocolate;
+    transform: scale(2.25);
+    -webkit-transform: scale(2.25);
+    -moz-transform: scale(2.25);
+    -ms-transform: scale(2.25);
+    -o-transform: scale(2.25);
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    border-radius: 02rem;
+    -webkit-border-radius: 02rem;
+    -moz-border-radius: 02rem;
+    -ms-border-radius: 02rem;
+    -o-border-radius: 02rem;
+}
+ html{ 
+     background: url("image2/gateway.jpg") no-repeat center center fixed;
+   height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     
+} 
+
+/* main */
+.h2{
+    text-align: center;
+}
+.describe{
+    background-color: #5AB2FF;
+}
